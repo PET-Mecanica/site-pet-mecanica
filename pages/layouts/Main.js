@@ -20,7 +20,7 @@ const styles = {
     paper: {
         height: 300,
         width: 300,
-        backgroundColor: '#424556',
+        backgroundColor: '#1F1F1F',
         color: '#fff'
     }
 }
@@ -50,7 +50,10 @@ export default class Main extends Component {
                 <Container align='center' style={{display: 'flex', margin: 'auto', flexWrap: 'wrap'}}>
                     <Grid container justify='center' spacing={2}>
                         <Grid item xs={4}>
-                            <Paper style={{backgroundColor: '#424556'}}  className={classes.paper} elevation={0}>
+                            <Paper style={{height: 300,
+        width: 300,
+        backgroundColor: '#1F1F1F',
+        color: '#78787A'}}  className={classes.paper} elevation={2}>
                                 <div style={{padding: '50px'}}>
                                 <img style={{paddingBottom: '20px'}} height='90px' width='90px' src='/confetti2.svg'/>
                                 </div>
@@ -63,7 +66,10 @@ export default class Main extends Component {
                                 </Paper>
                         </Grid>
                         <Grid item xs={4}>
-                        <Paper  className={classes.paper} elevation={0}>
+                        <Paper style={{height: 300,
+        width: 300,
+        backgroundColor: '#1F1F1F',
+        color: '#78787A'}}  className={classes.paper} elevation={2}>
                                 <div style={{padding: '50px'}}>
                                 <img style={{paddingBottom: '20px'}} height='90px' width='90px' src='/confetti2.svg'/>
                                 </div>
@@ -76,7 +82,10 @@ export default class Main extends Component {
                                 </Paper>
                         </Grid>
                         <Grid item xs={4}>
-                        <Paper  className={classes.paper} elevation={0}>
+                        <Paper style={{height: 300,
+        width: 300,
+        backgroundColor: '#1F1F1F',
+        color: '#78787A'}}  className={classes.paper} elevation={2}>
                                 <div style={{padding: '50px'}}>
                                 <img style={{paddingBottom: '20px'}} height='90px' width='90px' src='/confetti2.svg'/>
                                 </div>
@@ -89,21 +98,21 @@ export default class Main extends Component {
                         </Grid>
                     </Grid>
                 </Container>
-                <Container style={{display: 'flex', alignItems: 'center', padding: '56px 0', maxWidth: '1280px'}}>
+                <Container className="row justify-content-between" style={{display: 'flex', alignItems: 'center', padding: '80px 0', maxWidth: '1000px'}}>
                     <Grid item xs={6}>
                     <img src="/pet.jpg" className='rounded float-left' style={{
                             borderRadius: 'none', width: 'auto', height: 'auto', maxWidth: '500px', maxHeight: '600px'
                             }}/>
                     </Grid>
-                    <Grid item xs={6}>
+                    <Grid item xs={5}>
                             <Typography variant="h6">O PET-MECÂNICA DA ESCOLA POLITÉCNICA DA USP</Typography>
                             <p className='text'>O PET-Mecânica foi criado em 1991, ao mesmo tempo que o PET-Mecatrônica e o extinto PET-Minas, 
                                 sendo estes os três primeiros grupos PET da Escola Politécnica da USP. </p>
                             <Botao value='Saiba mais'></Botao>
                     </Grid>
                 </Container>
-                <Container style={{display: 'flex', alignItems: 'center', padding: '56px 0', maxWidth: '1280px'}}>
-                    <Grid item xs={6}>
+                <Container className="row justify-content-between" style={{display: 'flex', alignItems: 'center', padding: '80px 0', maxWidth: '1000px'}}>
+                    <Grid item xs={5}>
                             <Typography variant="h6">PRINCIPAIS ATIVIDADES DO PET-MECÂNICA DA POLI-USP</Typography>
                             <p className='text'>Nas atividades desenvolvidas pelo PET-Mecânica busca-se sempre disseminar algum tipo de conhecimento ou conceito ao mesmo tempo 
                                 em que se agregam outros conhecimentos e conceitos aos próprios integrantes do grupo, o que faz com que os integrantes do PET 
@@ -116,21 +125,21 @@ export default class Main extends Component {
                             }}/>
                     </Grid>
                 </Container>
-                <Container style={{display: 'flex', alignItems: 'center', padding: '56px 0', maxWidth: '1280px'}}>
+                <Container className="row justify-content-between" style={{display: 'flex', alignItems: 'center', padding: '80px 0', maxWidth: '1000px'}}>
                     <Grid item xs={6}>
                     <img src="/jp.jpg" className='rounded float-left' style={{
                             borderRadius: 'none', width: 'auto', height: 'auto', maxWidth: '500px', maxHeight: '600px'
                             }}/>
                     </Grid>
-                    <Grid item xs={6}>
+                    <Grid item xs={5}>
                             <Typography variant="h6">OS PETIANOS</Typography>
                             <p className='text'>Conheça os alunos por trás do PET-Mecânica</p>
                             <Botao value='Saiba mais'></Botao>
                     </Grid>
                 </Container>
-                <Container style={{display: 'flex', alignItems: 'center', padding: '56px 0', maxWidth: '1280px'}}>
+                <Container className="row justify-content-between" style={{display: 'flex', alignItems: 'center', padding: '80px 0', maxWidth: '1000px'}}>
                     
-                    <Grid item xs={6}>
+                    <Grid item xs={5}>
                             <Typography variant="h6">PROJETOS</Typography>
                             <p className='text'>Descubra os Projetos que estão em desenvolvimento</p>
                             <Botao value='Saiba mais'></Botao>
@@ -139,11 +148,11 @@ export default class Main extends Component {
                         <Lottie options={{animationData: project}} height={300} width={300}></Lottie>
                     </Grid>
                 </Container>
-                <Container style={{display: 'flex', alignItems: 'center', padding: '56px 0', maxWidth: '1280px'}}>
+                <Container className="row justify-content-between" style={{display: 'flex', alignItems: 'center', padding: '80px 0', maxWidth: '1000px'}}>
                     <Grid item xs={6}>
                         {<Lottie style={{float: 'left'}} options={defaultOptions} height={300} width={300}></Lottie>}
                     </Grid>
-                    <Grid item xs={6}>
+                    <Grid item xs={5}>
                             <Typography variant="h6">PESQUISAS</Typography>
                             <p className='text'>Conheça as Pesquisas que o PET Mecânica já fez</p>
                             <Botao value='Saiba mais'></Botao>

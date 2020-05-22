@@ -13,7 +13,8 @@ export default class Footer extends Component {
 
         return (
 
-            <footer style={{backgroundColor: '#424556'}}>
+            <footer>
+                
                 <Container maxWidth='lg'>
                     <Grid container justify='center' spacing={2} style={{paddingBottom: '30px'}}>
                     <Grid item xs={6}>

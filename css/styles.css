@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -12,17 +12,49 @@ body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
-    color: #fff;
-    background-color: #333645;
+    color: #78787A;
+    background-color: #333233;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+    text-align: left;
     
   }
 
 
+/* SVG retangulo*/
+
+
+.svg-retangle {
+  z-index: -1;
+  position: absolute;
+  right: 100px;
+  top: 50%;
+  width: 600px;
+  height: 600px;
+}
+
+.retangle {
+  
+  width: 800px;
+  height: 50vh;
+  fill: #B62638;
+
+}
+
+.svg-circle {
+  position: absolute;
+  right: -15%;
+  top: 63%;
+  width: 600px;
+  height: 600px;
+}
+
 .background-header {
-  color: #fff;
+  background-image: url(../public/dots.png);
+  background-size: contain;
+  background-color: #1F1F1F;
+  color: #78787A;
 }
 
 .size-header {
@@ -33,8 +65,8 @@ body {
   align-items: center;
   width: 100%;
   min-height: 480px;
-  height: 80vh;
-  max-height: 660px;
+  height: 100vh;
+  max-height: 1080px;
   box-sizing: border-box;
   padding: 48px 48px 32px;
   overflow: hidden;
@@ -44,16 +76,31 @@ body {
 
 .nav-link {
 
-  color: #fff;
+  color: #78787A;
+}
+.nav-link:hover {
+
+  color: rgb(89, 89, 92);
 }
 
 .text {
-  font-weight: 100;
+  color: #fff;
+  font-weight: 400;
 }
 
 footer {
+  background-color: #1F1F1F;
+  background-image: url(../public/dots.png);
+  background-size: contain;
   margin-top: auto;
   padding: 48px 0px;
+}
+
+.svg-retangle-footer {
+  position: absolute;
+  right: 100px;
+  width: 600px;
+  height: 60px;
 }
 
 .title {
