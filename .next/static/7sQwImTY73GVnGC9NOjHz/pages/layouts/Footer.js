@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[15],{TqRt:function(o,n){o.exports=function(o){return o&&o.__esModule?o:{default:o}}},VoyZ:function(o,n,t){(window.__NEXT_P=window.__NEXT_P||[]).push(["/layouts/Footer",function(){return t("kKhM")}])}},[["VoyZ",0,1,2,3,4,6]]]);

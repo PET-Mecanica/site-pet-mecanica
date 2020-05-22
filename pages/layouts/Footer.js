@@ -13,7 +13,7 @@ export default class Footer extends Component {
 
         return (
 
-            <footer style={{backgroundColor: '#EEECED'}}>
+            <footer style={{backgroundColor: '#424556'}}>
                 <Container maxWidth='lg'>
                     <Grid container justify='center' spacing={2} style={{paddingBottom: '30px'}}>
                     <Grid item xs={6}>
@@ -45,18 +45,18 @@ export default class Footer extends Component {
 </List>
                         </Grid>
                     </Grid>
-                    <Typography variant="body2" align="center" color="textSecondary">Escola Politécnica da USP Prédio de Eng. 
+                    <Typography variant="body2" align="center" color="initial">Escola Politécnica da USP Prédio de Eng. 
                         Mecânica, sala HT-17 ao lado das oficinas do PMR. Av. Prof. Mello Moraes, 2231 -
                          Cidade Universitária- CEP 05508-030, São Paulo - SP</Typography>
-                    <Typography variant="body2" align='center' color='textSecondary'>
+                    <Typography variant="body2" align='center' color='initial'>
                     <b>PET MECÂNICA</b> - 2020 - Telefone: (11) 3091-9653 - 
                     <a style={{paddingRight: '10px'}} href='https://www.facebook.com/petmecanica'><FacebookIcon color='primary'/></a>
                     <a style={{paddingRight: '10px'}} href="https://www.instagram.com/pet_mecanica/"><InstagramIcon color='primary'/></a>
                     <a style={{paddingRight: '10px'}} href="https://www.linkedin.com/company/petmecanica/"><LinkedInIcon color="primary"/></a>
 
                     </Typography>
-                        <Typography variant='body2' align='center' color='textSecondary'>
-                            Hosted with ❤ by <a href='https://github.com/danielvitorpd'><GitHubIcon style={{ color: 'rgba(0, 0, 0, 0.54)' }} fontSize='small'></GitHubIcon></a>  
+                        <Typography variant='body2' align='center' color='initial'>
+                            Hosted with ❤ by <a href='https://github.com/danielvitorpd'><GitHubIcon style={{ color: 'rgba(255, 255, 255, 0.54)' }} fontSize='small'></GitHubIcon></a>  
                         </Typography>
                 </Container>
             </footer>

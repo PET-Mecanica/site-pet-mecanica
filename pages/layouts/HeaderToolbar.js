@@ -12,7 +12,7 @@ export default class HeaderToolbar extends Component {
         return (
 
             <>
-                <Toolbar style={{zIndex: '10', position: 'absolute', padding: '20px 20px 60px', minWidth: '100%'}}>
+                <Toolbar style={{zIndex: '10', position: 'absolute', padding: '0px 20px 60px', minWidth: '100%', maxWidth: '1000px', marginLeft: 'auto', marginRight: 'auto'}}>
                     <Typography
           component="h2"
           variant="h5"
@@ -21,7 +21,7 @@ export default class HeaderToolbar extends Component {
           noWrap
           className='title'
         >
-          <a><img src="/logoPET.svg"/></a>
+          <a><img width="90px" height="90px" src="/PET.svg"/></a>
         </Typography>
         <ul className="nav justify-content-flex-end">
             <li className="nav-item">

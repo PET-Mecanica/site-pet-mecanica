@@ -21,6 +21,8 @@ export default class HomePage extends Component {
             <Head>
                 <link rel="icon" href="../public/logo.png" />
                 <title>PET Mecânica</title>
+                <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"></link>
+                <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;1,600&display=swap" rel="stylesheet"/>
                 <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet"/>
                 <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Palanquin+Dark|Rubik+Mono+One&display=swap" rel="stylesheet"></link>
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"></link>
