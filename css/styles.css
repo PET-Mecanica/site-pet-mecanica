@@ -74,6 +74,21 @@ body {
   position: absolute;
 }
 
+/* Toolbar */
+
+.toolbar {
+  display: flex !important;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+}
+@media screen and (min-width: 1370px) {
+  .toolbar {
+    padding-top: 200px;
+  }
+}
+
 .nav-link {
 
   color: #78787A;
@@ -106,4 +121,16 @@ footer {
 .title {
 
   flex: 1;
+}
+
+
+/* Imagem Header */
+
+.img-header {
+  box-shadow: 2px;
+  border-radius: 0 !important; 
+  width: auto;
+  height: auto; 
+  max-width: 600px; 
+  max-height: 600px;
 }

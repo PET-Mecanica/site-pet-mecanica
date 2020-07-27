@@ -19,16 +19,16 @@ export default class HeaderToolbar extends Component {
           <a className="navbar-brand" href="/"><img width="200px" src="/logoPET.svg"/></a>
         <ul className="nav justify-content-flex-end">
             <li className="nav-item">
-                <a className="nav-link" href="#">Sobre</a>
+                <a className="nav-link" href="/sobre">Sobre</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#">Petianos</a>
+                <a className="nav-link" href="/petianos">Petianos</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#">Pesquisas</a>
+                <a className="nav-link" href="/pesquisas">Pesquisas</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#">Contato</a>
+                <a className="nav-link" href="/projetos">Projetos</a>
             </li>
         </ul>
           </Toolbar>

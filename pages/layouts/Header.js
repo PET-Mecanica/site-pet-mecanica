@@ -23,7 +23,7 @@ export default class Header extends Component {
                 </svg>
                 
 
-                <Container className="row justify-content-between" style={{display: 'flex', alignItems: 'center', paddingTop: '200px', paddingBottom: '120px', maxWidth: '1280px'}}>
+                <Container className="row justify-content-between toolbar">
                     
                     <Grid item xs={5}>
                             <h3 style={{fontSize: '1.4em', color: '#B62638'}}>Bem-vindo ao </h3>
@@ -33,9 +33,7 @@ export default class Header extends Component {
                     </Grid>
                     <Grid item xs={6}>
                     <div className='' style={{padding: '40px 0px',height: '600px', width: '600px', margin: 'auto'}}>
-                        <img src="/zuado.jpg" className='float-right' style={{
-                            boxShadow: '2px', borderRadius: '0 !important', width: 'auto', height: 'auto', maxWidth: '600px', maxHeight: '600px'
-                            }}/>
+                        <img src="/zuado.jpg" className='float-right img-header'/>
                     </div>
                     </Grid>
                 
