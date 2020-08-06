@@ -13,7 +13,6 @@ body {
     display: flex;
     flex-direction: column;
     color: #78787A;
-    background-color: #333233;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -99,8 +98,11 @@ body {
 }
 
 .text {
-  color: #fff;
-  font-weight: 400;
+  color: #B62638;
+}
+
+.text-black {
+  color: #070708;
 }
 
 footer {
@@ -133,4 +135,9 @@ footer {
   height: auto; 
   max-width: 600px; 
   max-height: 600px;
+}
+
+.button:hover {
+
+  color: #252525
 }
