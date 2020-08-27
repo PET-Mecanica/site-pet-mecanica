@@ -23,7 +23,7 @@ export default class Botao extends Component {
         return (
 
             <>
-                <Button className='button' size='large' variant="outlined" style={{
+                <Button href={this.props.href} className='button' size='large' variant="outlined" style={{
         fontFamily: 'Poppins',
         LetterSpacing: '0.15rem !important',
         backgroundColor: 'rgb(0,0,0,0)',

@@ -1,16 +1,10 @@
 import React, { Component } from "react";
 import Container from '@material-ui/core/Container'
-import Button from '@material-ui/core/Button';
-import Toolbar from '@material-ui/core/Toolbar'
 import Botao from './Botao'
 import Grid from '@material-ui/core/Grid'
 
 export default class Header extends Component {
 
-    constructor() {
-
-        super();
-    }
 
     render() {
 
@@ -23,7 +17,7 @@ export default class Header extends Component {
                 </svg>
                 
 
-                <Container className="row justify-content-between toolbar">
+                <Container className="size-80 row justify-content-between toolbar">
                     
                     <Grid item xs={5}>
                             <h3 style={{fontSize: '1.4em', color: '#B62638'}}>Bem-vindo ao </h3>

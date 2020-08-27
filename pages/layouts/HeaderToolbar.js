@@ -25,10 +25,10 @@ export default class HeaderToolbar extends Component {
                 <a className="nav-link" href="/petianos">Petianos</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="/pesquisas">Pesquisas</a>
+                <a className="nav-link" href="/projetos">Projetos</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="/projetos">Projetos</a>
+                <a className="nav-link" href="/contato">Contato</a>
             </li>
         </ul>
           </Toolbar>

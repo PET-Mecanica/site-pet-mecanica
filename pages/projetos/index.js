@@ -2,10 +2,11 @@ import React, {Component} from 'react'
 import Main from '../layouts/Main'
 import HeaderToolbar from '../layouts/HeaderToolbar'
 import Footer from '../layouts/Footer'
-import Header from '../layouts/Header'
+import HeaderProjetos from './layouts/HeaderProjetos'
 import styled from 'styled-components'
 import { Container } from '@material-ui/core'
 import Head from 'next/head'
+import MainProjetos from './layouts/MainProjetos'
 
 const Title = styled.h1`
     font-size: 50px;
@@ -30,8 +31,8 @@ export default class HomePage extends Component {
             </Head>
             <HeaderToolbar></HeaderToolbar>
             <div className='container-fluid' style={{padding: '0', zIndex: '2'}}>
-                <Header></Header>
-                <Main></Main>
+                <HeaderProjetos></HeaderProjetos>
+                <MainProjetos></MainProjetos>
             </div>
             <svg className="svg-retangle-footer">
                     <rect className='retangle'></rect>

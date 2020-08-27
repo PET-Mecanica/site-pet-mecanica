@@ -7,10 +7,6 @@ import styled from 'styled-components'
 import { Container } from '@material-ui/core'
 import Head from 'next/head'
 
-const Title = styled.h1`
-    font-size: 50px;
-    color: ${({ theme }) => theme.colors.primary};
-`
 
 export default class HomePage extends Component {
 
