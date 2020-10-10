@@ -19,16 +19,14 @@ export default class Header extends Component {
 
                 <Container className="size-80 row justify-content-between toolbar">
                     
-                    <Grid item xs={5}>
-                            <h3 style={{fontSize: '1.4em', color: '#B62638'}}>Bem-vindo ao </h3>
-                            <h1 style={{fontWeight: '600', fontSize: '4.5em'}}>PET Mecânica</h1>
-                            <h3 style={{fontSize: '1.4em', fontWeight: '400'}}>O PET Mecânica é um grupo que abraça projetos para serem desenvolvidos em equipe</h3>
+                    <Grid item lg={5} md={12}>
+                            <h3 style={{color: '#B62638'}}>Bem-vindo ao </h3>
+                            <h1>PET Mecânica</h1>
+                            <h3 style={{fontWeight: '400'}}>O PET Mecânica é um grupo que abraça projetos para serem desenvolvidos em equipe</h3>
                             <Botao value="Comece a explorar" color='#B62638'></Botao>
                     </Grid>
-                    <Grid item xs={6}>
-                    <div className='' style={{padding: '40px 0px',height: '600px', width: '600px', margin: 'auto'}}>
-                        <img src="/zuado.jpg" className='float-right img-header'/>
-                    </div>
+                    <Grid item lg={6} md={12}>
+                    
                     </Grid>
                 
                 

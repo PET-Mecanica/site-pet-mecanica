@@ -13,7 +13,7 @@ export default class HeaderToolbar extends Component {
         return (
 
             <>
-                <Toolbar variant="nav-bar" style={{zIndex: '10', position: 'absolute', minWidth: '100%', paddingTop: '40px'}}>
+                <Toolbar variant="nav-bar" style={{zIndex: '10', position: 'absolute', minWidth: '100%', padding: '40px 0 0 0'}}>
                     <Container>
           <Toolbar style={{justifyContent: 'space-between', padding: '0 !important'}}>
           <a className="navbar-brand" href="/"><img width="200px" src="/logoPET.svg"/></a>

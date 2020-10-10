@@ -11,7 +11,7 @@ export default class Papel extends Component{
 
             <Paper elevation={3} className="paper">
                 <div style={{textAlign: 'center', paddingTop: '40px'}}>
-                    <h2>{this.props.h2}</h2>
+                    <h3>{this.props.h2}</h3>
                 </div>
                 <div style={{textAlign: 'center', paddingTop: '60px', paddingLeft: '20px', paddingRight: '20px'}}>
                     <p>
