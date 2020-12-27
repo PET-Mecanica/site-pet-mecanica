@@ -13,7 +13,7 @@ export default class HeaderPetianos extends Component {
                 <div className="background-header size-header"></div>
                 <Container className="size-80 row justify-content-between toolbar">
                     <Grid item xs={12}>
-                        <h1 style={{margin: 'auto', fontWeight: '600', fontSize: '4.5em', textAlign: 'center'}}>Le Petianos</h1>
+                        <h1 style={{margin: 'auto', fontWeight: '600', textAlign: 'center'}}>Le Petianos</h1>
                     </Grid>
                 </Container>
             </header>

@@ -16,10 +16,6 @@ export default class Botao extends Component {
 
     render() {
 
-        const { classes } = this.props
-
-
-
         return (
 
             <>

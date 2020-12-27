@@ -3,37 +3,50 @@ import Toolbar from '@material-ui/core/Toolbar'
 import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
 import Container from '@material-ui/core/Container'
-
-
+import Hamburger from './Hamburguer/Hamburger'
+import Menu from './Hamburguer/Menu'
 
 export default class HeaderToolbar extends Component {
+
+    constructor(props) {
+
+        super(props);
+        this.state = {
+            width: 0,
+            open: true,
+
+            
+        }
+    }
+
+    componentDidMount() {
+
+        const width = document.querySelector('body').clientWidth;
+
+        this.setState({ width: width })
+
+        if (width < 481) {
+
+            this.setState({open: false})
+        }
+
+    }
 
     render() {
 
         return (
 
             <>
-                <Toolbar variant="nav-bar" style={{zIndex: '10', position: 'absolute', minWidth: '100%', padding: '40px 0 0 0'}}>
+                <Toolbar style={{zIndex: '10', position: 'absolute', minWidth: '100%', padding: '40px 0 0 0'}}>
                     <Container>
-          <Toolbar style={{justifyContent: 'space-between', padding: '0 !important'}}>
-          <a className="navbar-brand" href="/"><img width="200px" src="/logoPET.svg"/></a>
-        <ul className="nav justify-content-flex-end">
-            <li className="nav-item">
-                <a className="nav-link" href="/sobre">Sobre</a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link" href="/petianos">Petianos</a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link" href="/projetos">Projetos</a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link" href="/contato">Contato</a>
-            </li>
-        </ul>
-          </Toolbar>
-              
-                    
+                        <Toolbar style={{justifyContent: 'space-between', padding: '0 !important', display: 'grid'}}>
+                        
+                        
+                        <Menu open = {this.state.open}/>
+                            
+
+
+                        </Toolbar>
                     </Container>
                 </Toolbar>
             </>

@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: Roboto, sans-serif;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -97,7 +97,7 @@ body {
 }
 
 .text {
-  color: #B62638;
+  color: #e1e1e6;
 }
 
 .text-black {
@@ -131,6 +131,19 @@ footer {
 
   flex: 1;
 }
+
+/* Toolbar Hamburguer */
+
+@media (max-width: 720px) {}
+
+  .css-erca8v {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+
+}
+
 
 
 /* Imagem Header */
@@ -167,10 +180,14 @@ footer {
 
 .p-center {
   text-align: justify;
+  color: #e1e1e6;
+
 }
 .h1-center {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 40px !important;
+  color: #e1e1e6;
+  
 }
 
 .trol {
@@ -185,7 +202,7 @@ footer {
   background-size: contain;
   width: 384px;
   height: 384px;
-  margin: 8px;
+  margin: 8px auto;
   color: #fff;
 }
 
@@ -300,7 +317,7 @@ h3 {
   -ms-flex-align: center !important;
   align-items: center !important;
   padding: 20px 0;
-  max-width: 1280px;
+  max-width: 1120px;
 }
 
 @media (max-width: 760px) {
@@ -317,5 +334,15 @@ h3 {
     padding: 20px 0;
   };
 
-  
+}
+
+@media (max-width: 780px) {
+
+  .reverse {
+
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column-reverse !important;
+    display: flex !important;
+  }
 }
