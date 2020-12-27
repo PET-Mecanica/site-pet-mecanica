@@ -1,5 +1,4 @@
 
-import { StyledMenu } from './Menu.styled';
 import React, {Component} from 'react';
 import Hamburger from './Hamburger'
 

@@ -1,6 +1,5 @@
 // Burger.js
 import React, {Component} from 'react';
-import { StyledBurger } from './Burger.styled';
 
 export default class Hamburger extends Component {
 
