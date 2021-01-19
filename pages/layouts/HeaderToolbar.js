@@ -37,9 +37,15 @@ export default class HeaderToolbar extends Component {
         return (
 
             <>
-                <Toolbar style={{zIndex: '10', position: 'absolute', minWidth: '100%', padding: '40px 0 0 0'}}>
+                <Toolbar className='toolbar-logo' style={{zIndex: '10', position: 'absolute', minWidth: '100%', padding: '20px 0 0 0'}}>
                     <Container>
-                        <Toolbar style={{justifyContent: 'space-between', padding: '0 !important', display: 'grid'}}>
+                        <Toolbar style={{
+                            justifyContent: 'space-between', padding: '0 !important', display: 'grid', 
+                            gridColumnGap: '0',
+                            gridRowGap: '0',
+                            gridTemplateRows: '1fr',
+                            gridAutoRows: '0',
+                            gap: '40px 0'}}>
                         
                         
                         <Menu open = {this.state.open}/>

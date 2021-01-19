@@ -1,5 +1,6 @@
 // Burger.js
 import React, {Component} from 'react';
+import Container from '@material-ui/core/Container'
 
 export default class Hamburger extends Component {
 
@@ -24,9 +25,9 @@ export default class Hamburger extends Component {
 
     return (
       <>
-      <div style={{display: 'flex'}}>
-      <a className="navbar-brand" href="/"><img width="200px" src="/logoPET.svg"/></a>
-      <nav class="navbar navbar-transparent">
+      
+      <a className="navbar-brand" href="/"><img width="200px" src="/logoPET.svg" style={{display: 'flex', gridArea: '1 / 1', gridColumn: '1 / -1'}}  /></a>
+      <nav class="navbar navbar-transparent" style={{ display: 'flex', gridArea: '1 / 2', padding: '0' }} >
               <div class="navbar-wrapper">
                       <div class={this.state.open ? "navbar-toggle d-inline toggled" : "navbar-toggle d-inline"}>
                           <button type="button" class="navbar-toggler" onClick={this.openMenu} >
@@ -38,11 +39,11 @@ export default class Hamburger extends Component {
                   <label></label>
               </div>
       </nav>
-      </div>
+      
         
           {this.state.open ? 
-          <div>
-            <nav>
+
+            <div>
                   <ul className="nav justify-content-flex-end" >
                   <li className="nav-item">
                       <a className="nav-link" href="/sobre">Sobre</a>
@@ -57,7 +58,6 @@ export default class Hamburger extends Component {
                       <a className="nav-link" href="/contato">Contato</a>
                   </li>
                 </ul>
-          </nav>
           </div>
 
                   :

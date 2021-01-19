@@ -23,7 +23,7 @@ export default class Header extends Component {
                             <h3 style={{color: '#B62638'}}>Bem-vindo ao </h3>
                             <h1>PET Mecânica</h1>
                             <h3 style={{fontWeight: '400'}}>O PET Mecânica é um grupo que abraça projetos para serem desenvolvidos em equipe</h3>
-                            <Botao value="Comece a explorar" color='#B62638'></Botao>
+                            <Botao value="Comece a explorar" color='#B62638' colorHover='#e0d2d3' ></Botao>
                     </Grid>
                     <Grid item lg={6} md={12}>
                     

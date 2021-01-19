@@ -22,7 +22,7 @@ export default class HomePage extends Component {
                 <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;1,600&display=swap" rel="stylesheet"/>
                 <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet"/>
                 <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Palanquin+Dark|Rubik+Mono+One&display=swap" rel="stylesheet"></link>
-                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"></link>
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossOrigin="anonymous"></link>
             </Head>
             <HeaderToolbar></HeaderToolbar>
             <div className='container-fluid' style={{padding: '0', zIndex: '2'}}>

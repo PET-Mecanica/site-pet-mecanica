@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { createMuiTheme, withStyles, makeStyles, ThemeProvider } from '@material-ui/core/styles';
-import { Container, Grid, Paper } from "@material-ui/core";
+import { Container, Grid, Paper, Card } from "@material-ui/core";
 import Papel from './Papel'
+
 
 const theme = createMuiTheme({
 
@@ -29,44 +30,73 @@ const styles = {
 
 export default class MainProjetos extends Component {
 
+    constructor(props){
+
+        super(props)
+        
+    }
+
     render() {
 
         const { classes } = this.props
 
+        var items = [
+
+            {
+
+                titulo: 'Skate do Futuro',
+                descricao: `Uma parceria da Fábrica do Futuro da USP c/ o PET Mecânica. O objetivo é desenvolver um método de baixo custo para o aparafusamento do Truck de um skate a seu Shape.
+                `,
+                imagem: 'skate_do_futuro.jpg'
+            },
+            {
+                titulo: 'Pesquisa de Evasão',
+                descricao: 'Sei la',
+                imagem: 'skate_do_futuro.jpg'
+            },
+            {
+                titulo: 'Pesquisa de Evasão',
+                descricao: 'Sei la',
+                imagem: 'skate_do_futuro.jpg'
+            },
+            {
+                titulo: 'Pesquisa de Evasão',
+                descricao: 'Sei la',
+                imagem: 'skate_do_futuro.jpg'
+            },
+            {
+                titulo: 'Pesquisa de Evasão',
+                descricao:'Sei la',
+                imagem: 'skate_do_futuro.jpg'
+            },
+            {
+                titulo: 'Pesquisa de Evasão',
+                descricao: 'Sei la',
+                imagem: 'skate_do_futuro.jpg'
+            }
+
+        ]
+
         return (
-            <div style={{backgroundColor: '#252525', marginTop: '120px'}}>
-                <Container className="row justify-content-between" style={{display: 'flex', alignItems: 'center', padding: '80px 0'}}>
+            <div style={{backgroundColor: '#252525', paddingTop: '60px'}}>
+                <Container className="row justify-content-space-around container-fluid d-flex" style={{display: 'flex !important',
+    textAlign: 'center'}}>
+
+        {
+            items.map((item, i) => 
+            
+            <Grid item lg={4} xs={12} md={6} style={{paddingBottom: '1rem'}} >
                     <Papel
-                    h2="Skate do Futuro"
-                    p="                            Uma parceria da Fábrica do Futuro da USP c/ o PET Mecânica. O objetivo é desenvolver um método de baixo custo para conseguirmos, de forma autônoma, realizar o aparafusamento do Truck de um skate a seu Shape.
-                    "
-                    
-                    ></Papel>
-                    <Papel
-                    h2="Pesquisa de Evasão"
-                    p=""
-                    
-                    ></Papel>
-                    <Papel
-                    h2="Mini Curso"
-                    p=""
-                    
-                    ></Papel>
-                    <Papel
-                    h2="SERES"
-                    p=""
-                    
-                    ></Papel>
-                    <Papel
-                    h2="Mão Mecânica"
-                    p=""
-                    
-                    ></Papel>
-                    <Papel
-                    h2="Poli Mundi"
-                    p=""
-                    
-                    ></Papel>
+                    key = {i}
+                    imagem = 'skate_do_futuro.jpg'
+                    titulo = 'titulo'
+                    descricao = 'descricao'
+                    >
+                        
+                    </Papel>
+                    </Grid>
+            )
+        }
                 </Container>
 
             </div>

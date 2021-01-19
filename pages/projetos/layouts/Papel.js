@@ -1,24 +1,29 @@
 import React, { Component } from "react";
-import { createMuiTheme, withStyles, makeStyles, ThemeProvider } from '@material-ui/core/styles';
 import { Container, Grid, Paper } from "@material-ui/core";
-import Botao from "../../layouts/Botao";
+
 
 export default class Papel extends Component{
 
-    render() {
+    constructor(props) {
+
+        super(props)
+    }
+
+    render(props) {
 
         return(
 
-            <Paper elevation={3} className="paper">
-                <div style={{textAlign: 'center', paddingTop: '40px'}}>
-                    <h3>{this.props.h2}</h3>
+            <Paper style={{margin: 'auto', height: '100%'}} elevation={3} className="paper">
+                <div className="overflow">
+                    <img className='card-img-top' src={this.props.imagem} alt=""/>
                 </div>
-                <div style={{textAlign: 'center', paddingTop: '60px', paddingLeft: '20px', paddingRight: '20px'}}>
-                    <p>
-                        {this.props.p}
+                <div className='card-body text-dark' style={{textAlign: 'center'}}>
+                    <h4 className='card-title'>{this.props.titulo}</h4>
+                
+                    <p className='card-text text-secondary' >
+                        {this.props.descricao}
                     </p>
-                    <Botao href="/projetos/futuro" value="Leia mais"></Botao>
-
+               
                 </div>
             </Paper>
         );

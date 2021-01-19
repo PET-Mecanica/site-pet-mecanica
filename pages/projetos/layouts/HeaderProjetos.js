@@ -11,7 +11,7 @@ export default class HeaderSobre extends Component {
 
             <header>
                 <div className="background-header size-header"></div>
-                <Container className="size-100 row justify-content-between toolbar">
+                <Container className="size-80 row justify-content-between toolbar">
                     <Grid item xs={12}>
                         <h3 style={{margin: 'auto', color: '#B62638', textAlign: 'center'}}>Os Projetos do</h3>
                         <h1 style={{margin: 'auto', fontWeight: '600', textAlign: 'center'}}>PET Mecânica</h1>

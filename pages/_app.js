@@ -3,7 +3,7 @@ import '../css/styles.css'
 import '../css/link.css'
 import '../css/index.css'
 import { ThemeProvider } from 'styled-components'
-
+//import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 
 const theme = {

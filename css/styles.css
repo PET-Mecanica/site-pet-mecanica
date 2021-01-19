@@ -127,6 +127,14 @@ footer {
   }
 }
 
+@media (max-width: 480px){
+
+  .phone {
+
+    display: none !important;
+  }
+}
+
 .title {
 
   flex: 1;
@@ -157,17 +165,22 @@ footer {
   max-height: 600px;
 }
 
+
 @media (max-width: 480px) {
 
   .button {
 
-    text-align: center;
+    display: inherit !important;
+    margin: 8px auto !important;
   }
 }
 
 .button:hover {
 
-  color: #252525
+  border: 1px solid #ff4b62 !important;
+  color: #ff4b62 !important;
+  background-color: rgb(0,0,0,0) !important
+  
 }
 
 .size-100 {
@@ -197,13 +210,41 @@ footer {
 
 /* Main Projetos */
 
+.foto-petiano {
+
+  background-image: linear-gradient(to bottom, #252525 23%, #2e2d2d 23%)
+}
+
+
 .paper {
-  background-image: url(../public/dots.png);
-  background-size: contain;
-  width: 384px;
-  height: 384px;
-  margin: 8px auto;
+
+  width: 20rem;
   color: #fff;
+  box-shadow: 2.86px 6.67px 14.29px rgba( 0, 0, 0, 0.67 ) !important;
+  border-radius: 0 !important;
+}
+
+.card-body {
+  padding: 3rem 0 !important;
+}
+
+.card-text {
+  font-size: .9rem;
+  padding: 0.4rem 1.9rem;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.card-img-top {
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+.card-img-top:hover {
+
+  transform: scale(1.8)
 }
 
 /* Main */
@@ -300,6 +341,65 @@ h3 {
 .grid {
 
   padding-bottom: 10px;
+  position: relative;
+}
+
+.img-svg-left {
+  position: absolute;
+  left: -1rem;
+  top: -1rem;
+  height: 18rem !important;
+
+}
+
+
+
+.banner-left {
+  position: absolute;
+  left: 26rem;
+  bottom: -1rem;
+  height: 4rem;
+}
+
+.img-svg-right {
+  position: absolute;
+  right: -1rem;
+  top: -1rem;
+  height: 18rem !important;
+
+}
+
+.banner-right {
+  position: absolute;
+  right: 26rem;
+  bottom: -1rem;
+  height: 4rem;
+}
+
+@media (max-width: 780px) {
+
+  .img-svg-left {
+    height: 11rem !important;
+  }
+
+  .banner-left {
+
+    display: none
+  }
+
+  .img-svg-right {
+    left: -1rem;
+    height: 11rem !important
+  }
+
+  .banner-right {
+
+    display: none
+  }
+
+  .size-100 {
+    padding: 1rem !important
+  }
 }
 
 .container {
@@ -344,5 +444,13 @@ h3 {
     -ms-flex-direction: column;
     flex-direction: column-reverse !important;
     display: flex !important;
+  }
+}
+
+@media (max-width: 780px) {
+
+  .toolbar-logo {
+
+    padding: 20px 0;
   }
 }
