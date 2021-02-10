@@ -14,11 +14,17 @@ export default class Hamburger extends Component {
     this.openMenu = this.openMenu.bind(this)
   }
 
+  componentDidMount() {
+
+    const hidden = document.getElementById('tela-escura')
+}
+
   openMenu() {
 
     this.setState({open: !this.state.open})
 
-
+    this.props.onValidate()
+  
   }
 
   render() {
@@ -43,22 +49,17 @@ export default class Hamburger extends Component {
         
           {this.state.open ? 
 
-            <div>
-                  <ul className="nav justify-content-flex-end" >
-                  <li className="nav-item">
-                      <a className="nav-link" href="/sobre">Sobre</a>
-                  </li>
-                  <li className="nav-item">
-                      <a className="nav-link" href="/petianos">Petianos</a>
-                  </li>
-                  <li className="nav-item">
-                      <a className="nav-link" href="/projetos">Projetos</a>
-                  </li>
-                  <li className="nav-item">
-                      <a className="nav-link" href="/contato">Contato</a>
-                  </li>
-                </ul>
-          </div>
+            <>
+
+                      <a className="nav-link" href="/sobre" style={{gridArea: "2 / 1"}}>Sobre</a>
+
+                      <a className="nav-link" href="/petianos" style={{gridArea: "3 / 1"}} >Petianos</a>
+
+                      <a className="nav-link" href="/projetos" style={{gridArea: "4 / 1"}} >Projetos</a>
+
+                      <a className="nav-link" href="/contato" style={{gridArea: "5 / 1"}} >Contato</a>
+
+          </>
 
                   :
                   <></>}

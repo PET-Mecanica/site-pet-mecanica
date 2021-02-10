@@ -10,6 +10,18 @@ import Head from 'next/head'
 
 export default class HomePage extends Component {
 
+    constructor(props) {
+
+        super(props)
+        this.state = {
+            valid: false
+        }
+    }
+
+    onValidate = event => {
+        this.setState({valid: !this.state.valid})
+    }
+
     render(){
 
         return (
@@ -24,7 +36,8 @@ export default class HomePage extends Component {
                 <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Palanquin+Dark|Rubik+Mono+One&display=swap" rel="stylesheet"></link>
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossOrigin="anonymous"></link>
             </Head>
-            <HeaderToolbar></HeaderToolbar>
+            <div className={`shadow-screen ${this.state.valid ? 'hidden' : ''}`}></div>
+            <HeaderToolbar onValidate={this.onValidate} ></HeaderToolbar>
             <div className='container-fluid' style={{padding: '0', zIndex: '2'}}>
                 <Header></Header>
                 <Main></Main>

@@ -21,7 +21,7 @@ export default class HeaderToolbar extends Component {
 
     componentDidMount() {
 
-        const width = document.querySelector('body').clientWidth;
+        var width = document.querySelector('body').clientWidth;
 
         this.setState({ width: width })
 
@@ -37,18 +37,18 @@ export default class HeaderToolbar extends Component {
         return (
 
             <>
-                <Toolbar className='toolbar-logo' style={{zIndex: '10', position: 'absolute', minWidth: '100%', padding: '20px 0 0 0'}}>
+                <Toolbar className='toolbar-logo' style={{backgroundColor: '#1F1F1F', zIndex: '10', position: 'absolute', minWidth: '100%', padding: '10px 0 10px 0'}}>
                     <Container>
                         <Toolbar style={{
                             justifyContent: 'space-between', padding: '0 !important', display: 'grid', 
                             gridColumnGap: '0',
                             gridRowGap: '0',
                             gridTemplateRows: '1fr',
-                            gridAutoRows: '0',
-                            gap: '40px 0'}}>
+                            gridAutoRows: '0fr',
+                            gap: '0 0'}}>
                         
                         
-                        <Menu open = {this.state.open}/>
+                        <Menu onValidate={this.props.onValidate} open = {this.state.open}/>
                             
 
 
