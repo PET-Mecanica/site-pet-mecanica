@@ -19,17 +19,18 @@ export default class Botao extends Component {
         return (
 
             <>
-                <Button href={this.props.href} className={this.props.color == '#B62638' ? 'button' : ''} size='large' variant="outlined" style={{
+                <Button href={this.props.href} className='button-section' size='large' variant="outlined" style={{
         fontFamily: 'Poppins',
         LetterSpacing: '0.15rem !important',
         backgroundColor: 'rgb(0,0,0,0)',
         borderRadius: '0',
-        border: `1px solid ${this.props.color}`,
+        border: `2px solid ${this.props.color}`,
         color: `${this.props.color}`,
         margin: theme.spacing(1),
+        padding: '10px 22px',
         '&:hover': {
           color: `${this.props.colorHover} !important`,
-          border: `1px solid ${this.props.colorHover} !important`,
+          border: `2px solid ${this.props.colorHover} !important`,
         },
         }}>
                     {this.props.value}

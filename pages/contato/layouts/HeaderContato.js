@@ -21,7 +21,7 @@ export default class HeaderContato extends Component {
                 </svg>
                 <Container className="size-80 row justify-content-between toolbar">
                     <Grid item lg={5} md={12}>
-                        <h2 style={{color: '#B62638'}}>Contato</h2>
+                        <h2 style={{color: '#787878', textTransform: 'uppercase'}}>Contato</h2>
                         <p> Você pode falar conosco através do e-mail abaixo ou nos visitar na nossa sala no Prédio de Engenharia Mecânica e Naval da Escola Politécnica da USP, em São Paulo - SP.</p>
                         <h3 style={{color: '#B62638'}}>petmecanica.poli@gmail.com</h3>
                         <p> Nossas redes sociais abaixo:</p>
@@ -29,9 +29,6 @@ export default class HeaderContato extends Component {
                     <a title='Instagram' style={{color: '#E1306C',paddingRight: '10px'}} href="https://www.instagram.com/pet_mecanica/"><InstagramIcon style={{fontSize: 60}}/></a>
                     <a title='Linkedin' style={{color: '#0E76A8',paddingRight: '10px'}} href="https://www.linkedin.com/company/petmecanica/"><LinkedInIcon style={{fontSize: 60}}/></a>
 
-                    </Grid>
-                    <Grid item lg={6} md={12} >
-                        <PhoneEnabledIcon className='phone' style={{fontSize: 250, position: 'absolute', right: '250px', top: '35%' }}/>
                     </Grid>
                 </Container>
             </header>
