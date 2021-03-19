@@ -48,13 +48,13 @@ export default class Footer extends Component {
                          Cidade Universitária- CEP 05508-030, São Paulo - SP</Typography>
                     <Typography variant="body2" align='center' color='initial'>
                     <b>PET MECÂNICA</b> - 2020 - Telefone: (11) 3091-9653 - 
-                    <a title='Facebook' style={{color: '#3B5998',paddingLeft: '10px',paddingRight: '10px'}} href='https://www.facebook.com/petmecanica'><FacebookIcon/></a>
-                    <a title='Instagram' style={{color: '#E1306C',paddingRight: '10px'}} href="https://www.instagram.com/pet_mecanica/"><InstagramIcon/></a>
-                    <a title='Linkedin' style={{color: '#0E76A8',paddingRight: '10px'}} href="https://www.linkedin.com/company/petmecanica/"><LinkedInIcon/></a>
+                    <a className="icon-footer" title='Facebook' style={{paddingLeft: '5px'}} href='https://www.facebook.com/petmecanica'><FacebookIcon style={{fontSize: 23}}/></a>
+                    <a className="icon-footer" title='Instagram' href="https://www.instagram.com/pet_mecanica/"><InstagramIcon style={{fontSize: 23}}/></a>
+                    <a className="icon-footer" title='Linkedin' href="https://www.linkedin.com/company/petmecanica/"><LinkedInIcon style={{fontSize: 23}}/></a>
 
                     </Typography>
                         <Typography variant='body2' align='center' color='initial'>
-                            Hosted with ❤ by <a href='https://github.com/danielvitorpd'><GitHubIcon style={{ color: 'rgba(255, 255, 255, 0.54)' }} fontSize='small'></GitHubIcon></a>  
+                            Hosted with <span style={{color: '#f00'}}>❤</span> by <a className="icon-footer" style={{paddingLeft: '5px'}} href='https://github.com/PET-Mecanica/site-pet-mecanica'><GitHubIcon style={{fontSize: 23 }}></GitHubIcon></a>  
                         </Typography>
                 </Container>
             </footer>

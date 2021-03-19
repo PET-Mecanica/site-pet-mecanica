@@ -25,10 +25,9 @@ export default class HeaderContato extends Component {
                         <p> Você pode falar conosco através do e-mail abaixo ou nos visitar na nossa sala no Prédio de Engenharia Mecânica e Naval da Escola Politécnica da USP, em São Paulo - SP.</p>
                         <h3 style={{color: '#B62638'}}>petmecanica.poli@gmail.com</h3>
                         <p> Nossas redes sociais abaixo:</p>
-                        <a title='Facebook' style={{color: '#3B5998',paddingLeft: '10px',paddingRight: '10px', '&:hover': {color: '#ffffff'}}} href='https://www.facebook.com/petmecanica'><FacebookIcon style={{fontSize: 60}}/></a>
-                    <a title='Instagram' style={{color: '#E1306C',paddingRight: '10px'}} href="https://www.instagram.com/pet_mecanica/"><InstagramIcon style={{fontSize: 60}}/></a>
-                    <a title='Linkedin' style={{color: '#0E76A8',paddingRight: '10px'}} href="https://www.linkedin.com/company/petmecanica/"><LinkedInIcon style={{fontSize: 60}}/></a>
-
+                        <a className="icon-footer" title='Facebook' href='https://www.facebook.com/petmecanica'><FacebookIcon style={{fontSize: 40}}/></a>
+                    <a className="icon-footer" title='Instagram' href="https://www.instagram.com/pet_mecanica/"><InstagramIcon style={{fontSize: 40}}/></a>
+                    <a className="icon-footer" title='Linkedin' href="https://www.linkedin.com/company/petmecanica/"><LinkedInIcon style={{fontSize: 40}}/></a>
                     </Grid>
                 </Container>
             </header>
