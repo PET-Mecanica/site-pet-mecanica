@@ -1,0 +1,1 @@
+_N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[19],{VoyZ:function(o,_,n){(window.__NEXT_P=window.__NEXT_P||[]).push(["/layouts/Footer",function(){return n("kKhM")}])}},[["VoyZ",0,1,2,3,4,5]]]);

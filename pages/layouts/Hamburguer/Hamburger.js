@@ -32,7 +32,7 @@ export default class Hamburger extends Component {
     return (
       <>
       
-      <a className="navbar-brand" href="/"><img width="200px" src="/logoPET.svg" style={{display: 'flex', gridArea: '1 / 1', gridColumn: '1 / -1'}}  /></a>
+      <a className="navbar-brand" href="/pet"><img width="200px" src="logoPET.svg" style={{display: 'flex', gridArea: '1 / 1', gridColumn: '1 / -1'}}  /></a>
       <nav class="navbar navbar-transparent" style={{ display: 'flex', gridArea: '1 / 2', padding: '0' }} >
               <div class="navbar-wrapper">
                       <div class={this.state.open ? "navbar-toggle d-inline toggled" : "navbar-toggle d-inline"}>
@@ -51,13 +51,13 @@ export default class Hamburger extends Component {
 
             <>
 
-                      <a className="nav-link" href="/sobre" style={{gridArea: "2 / 1"}}>Sobre</a>
+                      <a className="nav-link" href="/pet/sobre.html" style={{gridArea: "2 / 1"}}>Sobre</a>
 
-                      <a className="nav-link" href="/petianos" style={{gridArea: "3 / 1"}} >Petianos</a>
+                      <a className="nav-link" href="/pet/petianos.html" style={{gridArea: "3 / 1"}} >Petianos</a>
 
-                      <a className="nav-link" href="/projetos" style={{gridArea: "4 / 1"}} >Projetos</a>
+                      <a className="nav-link" href="/pet/projetos.html" style={{gridArea: "4 / 1"}} >Projetos</a>
 
-                      <a className="nav-link" href="/contato" style={{gridArea: "5 / 1"}} >Contato</a>
+                      <a className="nav-link" href="/pet/contato.html" style={{gridArea: "5 / 1"}} >Contato</a>
 
           </>
 

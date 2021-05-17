@@ -47,7 +47,7 @@ export default class Footer extends Component {
                         Mecânica, sala HT-17 ao lado das oficinas do PMR. Av. Prof. Mello Moraes, 2231 -
                          Cidade Universitária- CEP 05508-030, São Paulo - SP</Typography>
                     <Typography variant="body2" align='center' color='initial'>
-                    <b>PET MECÂNICA</b> - 2020 - Telefone: (11) 3091-9653 - 
+                    <b>PET MECÂNICA</b> - 2021 - Telefone: (11) 3091-9653 - 
                     <a className="icon-footer" title='Facebook' style={{paddingLeft: '5px'}} href='https://www.facebook.com/petmecanica'><FacebookIcon style={{fontSize: 23}}/></a>
                     <a className="icon-footer" title='Instagram' href="https://www.instagram.com/pet_mecanica/"><InstagramIcon style={{fontSize: 23}}/></a>
                     <a className="icon-footer" title='Linkedin' href="https://www.linkedin.com/company/petmecanica/"><LinkedInIcon style={{fontSize: 23}}/></a>

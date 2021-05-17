@@ -55,10 +55,10 @@ export default class Header extends Component {
 
                 <Container className="size-80 row justify-content-between toolbar">
                     
-                    <Grid item lg={5} md={12}>
-                            <h6 className='start-text' style={{color: '#B62638', fontSize: '1.25rem', fontWeight: '700'}}>Bem-vindo ao </h6>
-                            <h1 className='start-text' style={{textAlign: 'left', fontWeight: '800', color: '#EEEEEF'}}>PET Mecânica</h1>
-                            <h6 className='start-text' style={{fontWeight: '700', lineHeight: '1.6', fontSize: '1.25rem', color: '#AEB0B4'}}>O PET Mecânica é um grupo que abraça projetos para serem desenvolvidos em equipe</h6>
+                    <Grid item lg={12} md={12} xs={12}>
+                            <h6 className='start-text' style={{color: '#B62638', fontSize: '1.25rem', fontWeight: '700', textAlign: 'center'}}>Bem-vindo ao </h6>
+                            <h1 className='start-text' style={{textAlign: 'left', fontWeight: '800', color: '#EEEEEF', textAlign: 'center'}}>PET Mecânica</h1>
+                            <h6 className='start-text' style={{lineHeight: '1.6', fontSize: '1.25rem', color: '#AEB0B4', textAlign: 'center'}}>O PET Mecânica é um grupo que abraça projetos para serem desenvolvidos em equipe</h6>
 
                             <Button type='button' onClick={this.scrollAnimation} href={this.props.href} className='button' size='large' variant="outlined" style={{
         fontFamily: 'Poppins',
@@ -67,26 +67,27 @@ export default class Header extends Component {
         borderRadius: '0',
         border: `2px solid #B62638`,
         color: `#B62638`,
-        margin: theme.spacing(1),
+        margin: '4rem 8rem',
         outline: 'none',
         padding: '10px 22px',
-        '&:hover': {
-          color: `#e0d2d3 !important`,
-          border: `2px solid #e0d2d3 !important`,
-        },
         }}>
                     Comece a explorar
                 </Button>
-                    </Grid>
-                    <Grid item lg={5} md={12} style={{    perspective: '1500px',
-    transformStyle: 'preserve-3d',
-    perspectiveOrigin: 'left center'}}>
-                    <img src="/logo3.png" className='float-left' style={{ display: 'none',
-                                borderRadius: 'none', width: '100%', height: '100%', maxWidth: '500px', maxHeight: '600px', transform: 'rotateY(-35deg) rotateX(15deg)', paddingBottom: '1rem'
-                                }}/>
-                    </Grid>
-                
-                
+                <Button type='button' href="https://www.facebook.com/petmecanica/posts/4077832648942890" className='button button-ps' size='large' variant="outlined" style={{
+        fontFamily: 'Poppins',
+        LetterSpacing: '0.15rem !important',
+        backgroundColor: 'rgb(0,0,0,0)',
+        borderRadius: '0',
+        border: `2px solid #B62638`,
+        color: `#B62638`,
+        outline: 'none',
+        padding: '10px 22px',
+        display: 'block',
+        width: '40%',
+        }}>
+                    Informações do Processo Seletivo para Ingresso no Programa de Educação Tutorial 2021
+                </Button>
+                    </Grid>               
                 </Container>
             </header>
         );

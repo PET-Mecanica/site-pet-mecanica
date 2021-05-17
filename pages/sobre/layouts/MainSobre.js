@@ -20,7 +20,7 @@ export default class MainSobre extends Component{
             <div style={{backgroundColor: '#252525'}}>
             <Container className="reverse container row justify-content-between">
                 <Grid item lg={6} md={12}>
-                <img src="/interno.jpg" className='float-left' style={{
+                <img src="interno.jpg" className='float-left' style={{
                     width: '100%', height: '100%', maxWidth: '500px', maxHeight: '600px'
                     }}/>
                 </Grid>
@@ -42,7 +42,7 @@ export default class MainSobre extends Component{
                 <p className="p-center">A médio e longo prazo, a SESu/MEC espera fomentar a formação de profissionais de nível superior, nas diversas áreas do conhecimento, dotados de elevados padrões científicos, técnicos, éticos e com responsabilidade social, nas diversas áreas do conhecimento, que sejam capazes de uma atuação no sentido da transformação da realidade nacional, em especial como docentes e pesquisadores pós-graduados em áreas profissionais.</p>
                 </Grid>
                 <Grid item lg={6} md={12}>
-                <img src="/brasil.png" className='float-right' style={{
+                <img src="brasil.png" className='float-right' style={{
                     width: '100%', height: '100%', maxWidth: '500px', maxHeight: '600px'
                     }}/>
                 </Grid>

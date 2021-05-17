@@ -15,19 +15,19 @@ return (
 
     
       <div style={{display:'flex'}}>
-      <a className="navbar-brand" href="/"><img width="200px" src="/logoPET.svg" style={{display: 'flex', gridArea: '1 / 1', gridColumn: '1 / -1'}} /></a>
+      <a className="navbar-brand" href="/pet"><img width="200px" src="logoPET.svg" style={{display: 'flex', gridArea: '1 / 1', gridColumn: '1 / -1'}} /></a>
     <ul className="nav justify-content-flex-end" style={{ display: 'flex', gridArea: '1 / 2', padding: '0' }} >
       <li className="nav-item">
-          <a className="nav-link" href="/sobre">Sobre</a>
+          <a className="nav-link" href="/pet/sobre.html">Sobre</a>
       </li>
       <li className="nav-item">
-          <a className="nav-link" href="/petianos">Petianos</a>
+          <a className="nav-link" href="/pet/petianos.html">Petianos</a>
       </li>
       <li className="nav-item">
-          <a className="nav-link" href="/projetos">Projetos</a>
+          <a className="nav-link" href="/pet/projetos.html">Projetos</a>
       </li>
       <li className="nav-item">
-          <a className="nav-link" href="/contato">Contato</a>
+          <a className="nav-link" href="/pet/contato.html">Contato</a>
       </li>
     </ul>
     </div>
