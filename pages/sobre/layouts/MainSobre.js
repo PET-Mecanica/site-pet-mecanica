@@ -52,7 +52,7 @@ export default class MainSobre extends Component{
 
                     <div style={{textAlign: 'center'}}>
                     <Typography className='text' variant="h6" style={{paddingBottom: '15px'}}>DOCUMENTOS PARA SABER MAIS SOBRE O PET</Typography>
-                    <Botao value='Clique aqui' color='#EEEEEF'></Botao>
+                    <Botao href='/pdpp.pdf' value='Clique aqui' color='#EEEEEF'></Botao>
                     </div>
             </Container>
 

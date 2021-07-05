@@ -44,6 +44,26 @@ export default class Main extends Component {
         return(
 
             <>
+
+                <div className="size-100" style={{backgroundColor: '#252525'}}>
+                    <Container className="container size-100 row justify-content-between">
+                        <Grid style={{backgroundColor: '#B62638', textAlign: 'center'}} className='grid' item lg={12} md={12}>
+                                <Typography className='text' variant="h2">Materiais para Graduação</Typography>
+                                <ul style={{listStyle: 'none'}}>
+                                    <li>
+                                    <a href='/DesenhoTecnico2019V1.pdf'>PME 3221: Introdução à Manufatura Mecânica</a>
+                                    </li>
+                                    <li>
+                                    <a href='/caderno_pietra.pdf'>PME 3221: Anotações Introdução à Manufatura Mecânica (CADERNO PIETRA)</a>
+                                    </li>
+                                    <li>
+                                    <a href='/ManufaturaV2019.pdf'>PME3120: Expressão Gráfica em Engenharia Mecânica 2019 V1</a>
+                                    </li>
+                                </ul>
+
+                        </Grid>
+                    </Container>
+                </div>
                 
                 <div className="size-100" style={{backgroundColor: '#252525'}}>
                     <Container className="container size-100 row justify-content-between">
