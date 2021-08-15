@@ -73,20 +73,6 @@ export default class Header extends Component {
         }}>
                     Comece a explorar
                 </Button>
-                <Button type='button' href="https://www.facebook.com/petmecanica/posts/4077832648942890" className='button button-ps' size='large' variant="outlined" style={{
-        fontFamily: 'Poppins',
-        LetterSpacing: '0.15rem !important',
-        backgroundColor: 'rgb(0,0,0,0)',
-        borderRadius: '0',
-        border: `2px solid #B62638`,
-        color: `#B62638`,
-        outline: 'none',
-        padding: '10px 22px',
-        display: 'block',
-        width: '40%',
-        }}>
-                    Informações do Processo Seletivo para Ingresso no Programa de Educação Tutorial 2021
-                </Button>
                     </Grid>               
                 </Container>
             </header>

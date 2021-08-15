@@ -179,7 +179,7 @@ imagemDetalhada: [`foto_drone.png`, `proejto_atual.png`],
 
             },
             {
-                titulo: 'Pesquisa de Evasão',
+                titulo: 'Pesquisa de Avaliação de Curso',
                 descricao: 'Um projeto voltado para a identificação das necessidades mais latentes do curso de Engenharia Mecânica da Escola Politécnica da USP. ',
                 imagem: 'Foto.jpg',
                 descricaoDetalhada: [`A Pesquisa Avaliativa teve início como iniciativa da representação discente do curso de Engenharia Mecânica da Escola Politécnica. Logo no início, contou com o completo apoio do PET-Mecânica, se tornando um projeto deste. A pesquisa surgiu em março de 2020, com o propósito de identificar pontos de melhoria necessários para a evolução do curso, assim como aumentar o grau de satisfação por parte dos alunos e dos professores.`
@@ -211,6 +211,20 @@ imagemDetalhada: [`pesquisa1.jpeg`, `pesquisa2.jpeg`, `pesquisa3.jpeg`],
 `Integrantes: Daniel Damião, Gabriel Duarte, Giovanna Giroto, Luca Gusela, Lucas Garrido, Lucas Godoi, Lucas Paiva e Vittor Breid.`
                     ],
                 imagemDetalhada: [],
+            },
+            {
+
+                titulo: 'Poli Polaris',
+                descricao: `A equipe Poli Polaris, incubada no início de 2021, visa a desenvolver uma equipe com foco no estudo e prototipagem de CubeSats, satélites de tamanho reduzido e baixo custo. Com isso, o foco é não somente em competições nacionais e internacionais, como a CubeDesign e OBSAT, mas também em projetos científicos de longo prazo, como lançamento de satélites.`,
+                imagem: 'poli_polaris.png',
+                descricaoDetalhada: [
+                    `A equipe Poli Polaris, incubada no início de 2021, visa a desenvolver uma equipe com foco no estudo e prototipagem de CubeSats, satélites de tamanho reduzido e baixo custo. Com isso, o foco é não somente em competições nacionais e internacionais, como a CubeDesign e OBSAT, mas também em projetos científicos de longo prazo, como lançamento de satélites.`,
+
+`Em sua primeira competição, a OBSAT (Olimpíada Brasileira de Satélites), a equipe elaborou os passos iniciais da missão Polaris I, cujo intuito é desenvolver um satélite para monitorar o branqueamento de corais na costa brasileira. Com menos de três meses de existência, o grupo foi aprovado para a segunda fase, garantindo a 8º posição em todo o Estado de São Paulo e recebendo materiais para executar a missão planejada.`,
+
+`Além disso, a equipe tem como objetivo difundir o tema de CubeSats na Escola Politécnica e, assim, integrar membros e membras das mais diversas engenharias. O Poli Polaris incentiva, portanto, o estudo e o desenvolvimento de tecnologias de ponta no tema aeroespacial dentro da universidade pública.`
+                    ],
+                imagemDetalhada: ['Montagem.png'],
             }
 
         ]

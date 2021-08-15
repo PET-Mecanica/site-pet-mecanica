@@ -2683,7 +2683,7 @@ var detectDomainLocale;
 
 if (false) {}
 
-var basePath = "/pet" || false;
+var basePath =  false || '';
 
 function buildCancellationError() {
   return Object.assign(new Error('Route Cancelled'), {

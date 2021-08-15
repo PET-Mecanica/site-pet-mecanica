@@ -499,6 +499,55 @@ export default class MainPetianos extends Component {
         var items = [
 
             {
+                foto: 'José_Gonçalez.jpg',
+                nome: 'José Gonçalez',
+                descricao: `"Quer saber o sentido da vida? Pra frente." - Emicida`,
+                periodo: '2021-Atual'
+
+
+            },
+            {
+                foto: 'Lucas_Carboni.jpg',
+                nome: 'Lucas Carboni',
+                descricao: ` "Se, a princípio, a ideia não é absurda, então não há esperança para ela" - Albert Einstein`,
+                periodo: '2021-Atual'
+            },
+            {
+                foto: 'Vitor_Buter.jpg',
+                nome: 'Vitor Buter',
+                descricao: ``,
+                periodo: '2021-Atual'
+            },
+
+            {
+                foto: 'João_Rocha.jpeg',
+                nome: 'João Rocha',
+                descricao: `"Tenha ânimo, e tudo se há de arranjar" - Machado de Assis`,
+                periodo: '2021-Atual'
+
+
+            },
+            {
+                foto: 'Cristhian_Macedo.jpg',
+                nome: 'Cristhian Macedo',
+                descricao: `"Em algum lugar, algo incrível está esperando para ser descoberto." - Carl Sagan`,
+                periodo: '2021-Atual'
+            },
+            {
+                foto: 'Roberto_Hamaoka.jpg',
+                nome: 'Roberto Hamaoka',
+                descricao: `"Nothing surpasses the beauty and elegance of a bad idea" - Craig Bruce`,
+                periodo: '2021-Atual'
+            },
+
+            {
+                foto: 'Guilherme_Hirata.JPG',
+                nome: 'Guilherme Hirata',
+                descricao: `"You miss 100% of the shots you don't take" - Wayne Gretzky`,
+                periodo: '2021-Atual'
+            },
+
+            {
                 foto: 'Joao_Nunes.jpg',
                 nome: 'João Nunes',
                 descricao: "Nenhuma limitação do ser humano é maior do que a que ele mesmo impõe.",
@@ -510,20 +559,20 @@ export default class MainPetianos extends Component {
                 foto: 'gusela.jpg',
                 nome: 'Luca Gusella',
                 descricao: `"If there's love in this life we're unstoppable" - Avicii`,
-                periodo: '2019-2021'
+                periodo: '2019-Atual'
             },
             {
                 foto: 'Vittor_Braide.jpg',
                 nome: 'Vittor Braide',
                 descricao: "O pior tipo de arrependimento é por aquilo que não fazemos.",
-                periodo: '2020-2021'
+                periodo: '2020-Atual'
             },
 
             {
                 foto: 'Gabriel_Souza.jpg',
                 nome: 'Gabriel Souza',
                 descricao: "",
-                periodo: '2019-2021'
+                periodo: '2019-Atual'
 
 
             },
@@ -531,33 +580,33 @@ export default class MainPetianos extends Component {
                 foto: 'Giovanna_Girotto.jpg',
                 nome: 'Giovanna Girotto',
                 descricao: ``,
-                periodo: '2020-2021'
+                periodo: '2020-Atual'
             },
             {
                 foto: 'Guilherme_Yamashita.jpg',
                 nome: 'Guilherme Yamashita',
                 descricao: "",
-                periodo: '2020-2021'
+                periodo: '2020-Atual'
             },
 
             {
                 foto: 'Gabriel_David.JPG',
                 nome: 'Gabriel David',
                 descricao: `"Quando a vida te decepciona, qual é a solução? Continue a nadar!" - Dory`,
-                periodo: '2020-2021'
+                periodo: '2020-Atual'
             },
             {
                 foto: 'Gustavo_Ribeiro.jpg',
                 nome: 'Gustavo Ribeiro',
                 descricao: "",
-                periodo: '2019-2021'
+                periodo: '2019-Atual'
             },
 
             {
                 foto: 'Lucas_Paiva.png',
                 nome: 'Lucas Paiva',
                 descricao: "",
-                periodo: '2018-2021'
+                periodo: '2018-2020'
 
 
             },
@@ -571,7 +620,7 @@ export default class MainPetianos extends Component {
                 foto: 'Matheus_Teixeira.jpg',
                 nome: 'Matheus Teixeira',
                 descricao: "",
-                periodo: '2020-2021'
+                periodo: '2020-Atual'
             },
 
             {
@@ -579,13 +628,13 @@ export default class MainPetianos extends Component {
                 nome: 'Murilo Marchioni',
                 descricao: `“The best way to learn is to surround yourself with the right people. Hang out with people better than you, and you cannot help but improve. Nothing is more important than getting better people into your life.”   - Guy Spier
                 `,
-                periodo: '2019-2021'
+                periodo: '2019-Atual'
             },
             {
                 foto: 'Felipe_Pimentel.jpeg',
                 nome: 'Felipe Pimentel',
                 descricao: "Nada é em vão, todos caminhos têm algo a ensinar.",
-                periodo: '2020-2021'
+                periodo: '2020-Atual'
             },
             {
                 foto: 'Leme_Lorena.jpg',
@@ -597,31 +646,31 @@ export default class MainPetianos extends Component {
                 foto: 'blank-profile.png',
                 nome: 'Caio de Souza',
                 descricao: '',
-                periodo: '2020-2021'
+                periodo: '2020-Atual'
             },
             {
                 foto: 'Bruno_Piazza.jpg',
                 nome: 'Bruno Piazza',
                 descricao: "",
-                periodo: '2019-2021'
+                periodo: '2019-Atual'
             },
             {
                 foto: 'blank-profile.png',
                 nome: 'Daniel Damião',
                 descricao: "",
-                periodo: '2019-2021'
+                periodo: '2019-Atual'
             },
             {
                 foto: 'Lucas_Godoi.jpeg',
                 nome: 'Lucas de Godoi',
                 descricao: '',
-                periodo: '2019-2021'
+                periodo: '2019-Atual'
             },
             {
                 foto: 'Rafael_Durand.JPG',
                 nome: 'Rafael Durand',
                 descricao: '',
-                periodo: '2020-2021'
+                periodo: '2020-Atual'
             },
         ]
 
@@ -640,7 +689,7 @@ export default class MainPetianos extends Component {
                     <div className='card-body text-white'>
                         <h4 className='card-title'>Edilson Hiroshi Tamai</h4>
                         <h6 className='text-secondary'>2000-Atual</h6>
-                        <p className='card-text' ></p>
+                        <p className='card-text' >Não desperdicem as oportunidades de serem gentis uns com os outros, elas são finitas</p>
                     </div>
                     </Paper>
                     </Grid>

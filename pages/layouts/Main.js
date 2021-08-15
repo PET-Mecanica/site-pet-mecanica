@@ -51,13 +51,13 @@ export default class Main extends Component {
                                 <Typography className='text' variant="h2">Materiais para Graduação</Typography>
                                 <ul style={{listStyle: 'none'}}>
                                     <li>
-                                    <a href='/DesenhoTecnico2019V1.pdf'>PME 3221: Introdução à Manufatura Mecânica</a>
+                                    <a href='/ManufaturaV2019.pdf'>PME 3221: Introdução à Manufatura Mecânica</a>
                                     </li>
                                     <li>
                                     <a href='/caderno_pietra.pdf'>PME 3221: Anotações Introdução à Manufatura Mecânica (CADERNO PIETRA)</a>
                                     </li>
                                     <li>
-                                    <a href='/ManufaturaV2019.pdf'>PME3120: Expressão Gráfica em Engenharia Mecânica 2019 V1</a>
+                                    <a href='/DesenhoTecnico2019V1.pdf'>PME3120: Expressão Gráfica em Engenharia Mecânica 2019 V1</a>
                                     </li>
                                 </ul>
 
