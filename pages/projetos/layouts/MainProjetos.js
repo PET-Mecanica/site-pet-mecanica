@@ -290,7 +290,7 @@ BackdropProps={{
 <Grid className={item.imagemDetalhada.length == 0 ? 'display-none' : ""} item lg={6} md={6} >
 
 <div className="overflow" style={{padding: '5rem 0'}}>
-    {item.imagemDetalhada.map(imagem => <img style={{borderRadius: '0', padding: '.5rem', width: '18rem'}} className='card-img-top' src={imagem} alt=""/>)}
+    {item.imagemDetalhada.map(imagem => <img style={{borderRadius: '0', margin: '.5rem', width: '18rem', border: '5px solid #fff', boxShadow: '-5px 5px 8px rgba(0,0,0,0.15)'}} className='card-img-top' src={imagem} alt=""/>)}
                     
                 </div>
 
