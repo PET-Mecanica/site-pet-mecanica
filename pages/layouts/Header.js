@@ -71,7 +71,7 @@ export default class Header extends Component {
         outline: 'none',
         padding: '10px 22px',
         }}>
-                    Comece a explorar
+                    OLA
                 </Button>
                     </Grid>               
                 </Container>

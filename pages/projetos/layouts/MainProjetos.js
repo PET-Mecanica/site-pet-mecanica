@@ -6,7 +6,7 @@ import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
 import Button from '@material-ui/core/Button';
-
+import Link from 'next/link'
 
 
 const theme = createMuiTheme({
@@ -250,7 +250,8 @@ imagemDetalhada: [`pesquisa1.jpeg`, `pesquisa2.jpeg`, `pesquisa3.jpeg`],
                     <p className='card-text'>
                         {item.descricao}
                     </p>
-                <Button onClick={() => this.openModal(index)} className='button-section button-project' size='large' variant="outlined" style={{
+                <Link href="/">
+                <Button href="/" onClick={() => this.openModal(index)} className='button-section button-project' size='large' variant="outlined" style={{
         fontFamily: 'Poppins',
         LetterSpacing: '0.15rem !important',
         backgroundColor: 'rgb(0,0,0,0)',
@@ -263,6 +264,7 @@ imagemDetalhada: [`pesquisa1.jpeg`, `pesquisa2.jpeg`, `pesquisa3.jpeg`],
         }}>
                     SAIBA MAIS
                 </Button>
+                </Link>
                
                 </div>
             </Paper>

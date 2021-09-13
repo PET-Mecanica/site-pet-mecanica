@@ -18,7 +18,7 @@ return (
       <a className="navbar-brand" href="/pet"><img width="200px" src="logoPET.svg" style={{display: 'flex', gridArea: '1 / 1', gridColumn: '1 / -1'}} /></a>
     <ul className="nav justify-content-flex-end" style={{ display: 'flex', gridArea: '1 / 2', padding: '0' }} >
       <li className="nav-item">
-          <a className="nav-link" href="/pet/sobre.html">Sobre</a>
+          <a className="nav-link" href="/pet/sobre.html">B</a>
       </li>
       <li className="nav-item">
           <a className="nav-link" href="/pet/petianos.html">Petianos</a>

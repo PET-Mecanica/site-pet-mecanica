@@ -8,6 +8,7 @@ import { Container } from '@material-ui/core'
 import Head from 'next/head'
 import MainProjetos from './layouts/MainProjetos'
 
+
 const Title = styled.h1`
     font-size: 50px;
     color: ${({ theme }) => theme.colors.primary};
