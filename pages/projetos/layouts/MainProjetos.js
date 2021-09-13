@@ -250,8 +250,8 @@ imagemDetalhada: [`pesquisa1.jpeg`, `pesquisa2.jpeg`, `pesquisa3.jpeg`],
                     <p className='card-text'>
                         {item.descricao}
                     </p>
-                <Link href="/">
-                <Button href="/" onClick={() => this.openModal(index)} className='button-section button-project' size='large' variant="outlined" style={{
+
+                <Button onClick={() => this.openModal(index)} className='button-section button-project' size='large' variant="outlined" style={{
         fontFamily: 'Poppins',
         LetterSpacing: '0.15rem !important',
         backgroundColor: 'rgb(0,0,0,0)',
@@ -264,7 +264,7 @@ imagemDetalhada: [`pesquisa1.jpeg`, `pesquisa2.jpeg`, `pesquisa3.jpeg`],
         }}>
                     SAIBA MAIS
                 </Button>
-                </Link>
+
                
                 </div>
             </Paper>

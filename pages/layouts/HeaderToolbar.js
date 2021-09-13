@@ -37,7 +37,7 @@ export default class HeaderToolbar extends Component {
         return (
 
             <>
-                <Toolbar className='toolbar-logo' style={{backgroundColor: '#1F1F1F', zIndex: '10', position: 'absolute', minWidth: '100%', padding: '10px 0 10px 0'}}>
+                <Toolbar className='toolbar-logo' style={{backgroundColor: 'transparent', zIndex: '10', position: 'absolute', minWidth: '100%', padding: '10px 0 10px 0'}}>
                     <Container>
                         <Toolbar style={{
                             justifyContent: 'space-between', padding: '0 !important', display: 'grid', 

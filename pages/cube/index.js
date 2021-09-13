@@ -1,11 +1,11 @@
 import React, {Component} from 'react'
 import HeaderToolbar from '../layouts/HeaderToolbar'
-import Footer from '../layouts/Footer'
 import styled from 'styled-components'
 import { Container } from '@material-ui/core'
 import Head from 'next/head'
-import CubeSat from './layouts/CubeSat'
-
+import HeaderProjects from './layouts/HeaderProjects'
+import FooterProjects from './layouts/FooterProjects'
+import MainCube from './layouts/MainCube'
 
 const Title = styled.h1`
     font-size: 50px;
@@ -40,15 +40,15 @@ export default class HomePage extends Component {
                 <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Palanquin+Dark|Rubik+Mono+One&display=swap" rel="stylesheet"></link>
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"></link>
             </Head>
+
             <div className={`shadow-screen ${this.state.valid ? 'hidden' : ''}`}></div>
             <HeaderToolbar onValidate={this.onValidate} ></HeaderToolbar>
             <div className='container-fluid' style={{padding: '0', zIndex: '2'}}>
-                <CubeSat/>
+                <HeaderProjects></HeaderProjects>
+                <MainCube/>
             </div>
-            <svg className="svg-retangle-footer">
-                    <rect className='retangle'></rect>
-                </svg>
-            <Footer></Footer>
+            
+            <FooterProjects/>
 
 
             </>

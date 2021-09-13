@@ -1,6 +1,5 @@
 import {Component} from 'react'
-import imageHeader from '../../../public/images-cubeSat/cubeSatHeader.png'
-
+import HeaderProjects from './HeaderProjects'
 
 export default class CubeSat extends Component {
 
@@ -8,7 +7,7 @@ export default class CubeSat extends Component {
 
         return(
 
-            <HeaderProjects img={imageHeader} />
+            <HeaderProjects img="images-cubeSat/cubeSatHeader.png"/>
         );
     }
 }
